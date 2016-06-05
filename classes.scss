@@ -1,0 +1,299 @@
+/*vertical align center*/
+.va-c {
+  display: table !important;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.va-c.separate {
+  border-collapse: separate !important;
+  border-spacing: 5px;
+}
+
+.va-c > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*group inline*/
+.group-inline{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    
+}
+.group-inline > *{
+    display: table-cell;
+    vertical-align: middle;
+}
+/*cursor*/
+.cu-p:hover{
+  cursor: pointer !important;
+} 
+/*containers*/
+.container{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.block{
+  width: 100%;
+  padding: 5px;
+ 
+}
+/*select none*/
+.select-none {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+/*center*/
+.center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+//Box
+.box{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+//Container -> box con padding
+.container{
+  display: block;
+  padding: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+//title
+.title{
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 1.3em;
+}
+//overflow hidden
+.ov-h{
+  overflow: hidden;
+}
+//Floats
+.fl-r{
+  float: right !important;
+}
+.fl-l{
+  float: left !important;
+}
+//borders
+.bs-so{
+  border-style: solid !important;
+}
+.bs-da{
+  border-style: dashed !important;
+}
+.bs-do{
+  border-style: dotted !important;
+}
+//displays
+.di-n{
+  display: none !important;
+}
+.di-b{
+  display: block !important;
+}
+.di-i{
+  display: inline !important;
+}
+.di-ib{
+  display: inline-block !important;
+}
+@for $i from 1 through 10{
+  .bw-#{$i}{
+    border-width: 1px * $i !important;
+  }
+}
+/*fixed width*/
+@for $i from 1 through 50{
+  .w-#{5 * $i}{
+    width: 5px * $i !important;
+  }
+}
+/*Otros anchos*/
+.w-full{
+  width: 100% !important;
+}
+
+/*max-width*/
+@for $i from 1 through 20{
+  .mw-#{50 * $i}{
+    width: 100%;
+    max-width: 50px * $i !important;
+  }
+}
+
+/*fixed height*/
+@for $i from 1 through 30{
+  .h-#{5 * $i}{
+    height: 5px * $i !important;
+  }
+}
+
+/*squares*/
+@for $i from 1 through 20{
+  .square-#{10 * $i}{
+    display: block;
+    width: 10px * $i !important;
+    height: 10px * $i !important;
+  }
+}
+
+
+
+
+/*margin*/
+@for $i from 1 through 20{
+  .m-#{5 * $i}{
+    margin: 5px * $i !important;
+  }
+   .ml-#{5 * $i}{
+    margin-left: 5px * $i !important;
+  }
+   .mr-#{5 * $i}{
+    margin-right: 5px * $i !important;
+  }
+  .mt-#{5 * $i}{
+    margin-top: 5px * $i !important;
+  }
+  .mb-#{5 * $i}{
+    margin-bottom: 5px * $i !important;
+  }
+  .p-#{5 * $i}{
+    padding: 5px * $i !important;
+  }
+  .pl-#{5 * $i}{
+    padding-left: 5px * $i !important;
+  }
+  .pr-#{5 * $i}{
+    padding-right: 5px * $i !important;
+  }
+  .pt-#{5 * $i}{
+    padding-top: 5px * $i !important;
+  }
+  .pb-#{5 * $i}{
+    padding-bottom: 5px * $i !important;
+  }
+}
+
+/*Fonts size*/
+
+@for $i from 10 through 50{
+  	.fs-#{$i}{
+		font-size: 0px + $i !important;
+	}
+}
+/*text align*/
+.ta-c{
+  text-align: center !important;
+}
+.ta-l{
+  text-align: left !important;
+}
+.ta-r{
+  text-align: right !important;
+}
+/*truncate -> texto con puntos*/
+.truncate{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*border-radius*/
+.radius {
+  border-radius: 10px !important;
+}
+/*Borde redondeado*/
+.round {
+  border-radius: 20px !important;
+}
+/*Circulo*/
+.circle {
+  border-radius: 9999px !important;
+}
+
+/*Transition*/
+.transition{
+  -webkit-transition: all .6s ease;
+     -moz-transition: all .6s ease;
+      -ms-transition: all .6s ease;
+       -o-transition: all .6s ease;
+          transition: all .6s ease;
+}
+/*Rotate*/
+.rotate-180{
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/*shadow*/
+.shadow {
+  box-shadow: 0 1px 4px #777 !important;
+}
+
+.shadow-input {
+   box-shadow: 0px 1px 2px #c3c3c3 !important;
+}
+/*hide-text*/
+.hide-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+/*No seleccionar texto*/
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+/*position*/
+.po-a{
+  position: absolute !important;
+}
+.po-r{
+  position: relative !important;
+}
+.po-f{
+  position: fixed !important;
+}
+@for $i from 0 through 40{
+  .to-#{5 * $i}{
+    top: 5px * $i !important;
+  }
+  .le-#{5 * $i}{
+    left: 5px * $i !important;
+  }
+  .ri-#{5 * $i}{
+    right: 5px * $i !important;
+  }
+  .bo-#{5 * $i}{
+    bottom: 5px * $i !important;
+  }
+}
+
