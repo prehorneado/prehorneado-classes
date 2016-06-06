@@ -852,7 +852,7 @@
   height: 200px !important;
 }
 
-/*margin*/
+/*margin y padding*/
 /* line 146, classes.scss */
 .m-5 {
   margin: 5px !important;
@@ -2128,13 +2128,8 @@
   box-shadow: 0 1px 4px #777 !important;
 }
 
-/* line 237, classes.scss */
-.shadow-input {
-  box-shadow: 0px 1px 2px #c3c3c3 !important;
-}
-
 /*hide-text*/
-/* line 241, classes.scss */
+/* line 237, classes.scss */
 .hide-text {
   border: 0;
   clip: rect(0 0 0 0);
@@ -2147,7 +2142,7 @@
 }
 
 /*No seleccionar texto*/
-/* line 252, classes.scss */
+/* line 248, classes.scss */
 .no-select {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -2165,837 +2160,1047 @@
 }
 
 /*position*/
-/* line 262, classes.scss */
+/* line 258, classes.scss */
 .po-a {
   position: absolute !important;
 }
 
-/* line 265, classes.scss */
+/* line 261, classes.scss */
 .po-r {
   position: relative !important;
 }
 
-/* line 268, classes.scss */
+/* line 264, classes.scss */
 .po-f {
   position: fixed !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-0 {
   top: 0px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-0 {
   left: 0px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-0 {
   right: 0px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-0 {
   bottom: 0px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-5 {
   top: 5px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-5 {
   left: 5px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-5 {
   right: 5px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-5 {
   bottom: 5px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-10 {
   top: 10px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-10 {
   left: 10px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-10 {
   right: 10px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-10 {
   bottom: 10px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-15 {
   top: 15px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-15 {
   left: 15px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-15 {
   right: 15px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-15 {
   bottom: 15px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-20 {
   top: 20px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-20 {
   left: 20px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-20 {
   right: 20px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-20 {
   bottom: 20px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-25 {
   top: 25px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-25 {
   left: 25px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-25 {
   right: 25px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-25 {
   bottom: 25px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-30 {
   top: 30px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-30 {
   left: 30px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-30 {
   right: 30px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-30 {
   bottom: 30px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-35 {
   top: 35px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-35 {
   left: 35px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-35 {
   right: 35px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-35 {
   bottom: 35px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-40 {
   top: 40px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-40 {
   left: 40px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-40 {
   right: 40px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-40 {
   bottom: 40px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-45 {
   top: 45px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-45 {
   left: 45px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-45 {
   right: 45px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-45 {
   bottom: 45px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-50 {
   top: 50px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-50 {
   left: 50px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-50 {
   right: 50px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-50 {
   bottom: 50px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-55 {
   top: 55px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-55 {
   left: 55px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-55 {
   right: 55px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-55 {
   bottom: 55px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-60 {
   top: 60px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-60 {
   left: 60px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-60 {
   right: 60px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-60 {
   bottom: 60px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-65 {
   top: 65px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-65 {
   left: 65px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-65 {
   right: 65px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-65 {
   bottom: 65px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-70 {
   top: 70px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-70 {
   left: 70px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-70 {
   right: 70px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-70 {
   bottom: 70px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-75 {
   top: 75px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-75 {
   left: 75px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-75 {
   right: 75px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-75 {
   bottom: 75px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-80 {
   top: 80px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-80 {
   left: 80px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-80 {
   right: 80px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-80 {
   bottom: 80px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-85 {
   top: 85px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-85 {
   left: 85px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-85 {
   right: 85px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-85 {
   bottom: 85px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-90 {
   top: 90px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-90 {
   left: 90px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-90 {
   right: 90px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-90 {
   bottom: 90px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-95 {
   top: 95px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-95 {
   left: 95px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-95 {
   right: 95px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-95 {
   bottom: 95px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-100 {
   top: 100px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-100 {
   left: 100px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-100 {
   right: 100px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-100 {
   bottom: 100px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-105 {
   top: 105px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-105 {
   left: 105px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-105 {
   right: 105px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-105 {
   bottom: 105px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-110 {
   top: 110px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-110 {
   left: 110px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-110 {
   right: 110px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-110 {
   bottom: 110px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-115 {
   top: 115px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-115 {
   left: 115px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-115 {
   right: 115px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-115 {
   bottom: 115px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-120 {
   top: 120px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-120 {
   left: 120px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-120 {
   right: 120px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-120 {
   bottom: 120px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-125 {
   top: 125px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-125 {
   left: 125px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-125 {
   right: 125px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-125 {
   bottom: 125px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-130 {
   top: 130px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-130 {
   left: 130px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-130 {
   right: 130px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-130 {
   bottom: 130px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-135 {
   top: 135px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-135 {
   left: 135px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-135 {
   right: 135px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-135 {
   bottom: 135px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-140 {
   top: 140px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-140 {
   left: 140px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-140 {
   right: 140px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-140 {
   bottom: 140px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-145 {
   top: 145px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-145 {
   left: 145px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-145 {
   right: 145px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-145 {
   bottom: 145px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-150 {
   top: 150px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-150 {
   left: 150px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-150 {
   right: 150px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-150 {
   bottom: 150px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-155 {
   top: 155px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-155 {
   left: 155px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-155 {
   right: 155px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-155 {
   bottom: 155px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-160 {
   top: 160px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-160 {
   left: 160px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-160 {
   right: 160px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-160 {
   bottom: 160px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-165 {
   top: 165px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-165 {
   left: 165px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-165 {
   right: 165px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-165 {
   bottom: 165px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-170 {
   top: 170px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-170 {
   left: 170px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-170 {
   right: 170px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-170 {
   bottom: 170px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-175 {
   top: 175px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-175 {
   left: 175px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-175 {
   right: 175px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-175 {
   bottom: 175px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-180 {
   top: 180px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-180 {
   left: 180px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-180 {
   right: 180px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-180 {
   bottom: 180px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-185 {
   top: 185px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-185 {
   left: 185px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-185 {
   right: 185px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-185 {
   bottom: 185px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-190 {
   top: 190px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-190 {
   left: 190px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-190 {
   right: 190px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-190 {
   bottom: 190px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-195 {
   top: 195px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-195 {
   left: 195px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-195 {
   right: 195px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-195 {
   bottom: 195px !important;
 }
 
-/* line 272, classes.scss */
+/* line 268, classes.scss */
 .to-200 {
   top: 200px !important;
 }
 
-/* line 275, classes.scss */
+/* line 271, classes.scss */
 .le-200 {
   left: 200px !important;
 }
 
-/* line 278, classes.scss */
+/* line 274, classes.scss */
 .ri-200 {
   right: 200px !important;
 }
 
-/* line 281, classes.scss */
+/* line 277, classes.scss */
 .bo-200 {
   bottom: 200px !important;
+}
+
+/* line 284, classes.scss */
+.zi-0 {
+  z-index: 0 !important;
+}
+
+/* line 284, classes.scss */
+.zi-1 {
+  z-index: 1 !important;
+}
+
+/* line 284, classes.scss */
+.zi-2 {
+  z-index: 2 !important;
+}
+
+/* line 284, classes.scss */
+.zi-3 {
+  z-index: 3 !important;
+}
+
+/* line 284, classes.scss */
+.zi-4 {
+  z-index: 4 !important;
+}
+
+/* line 284, classes.scss */
+.zi-5 {
+  z-index: 5 !important;
+}
+
+/* line 284, classes.scss */
+.zi-6 {
+  z-index: 6 !important;
+}
+
+/* line 284, classes.scss */
+.zi-7 {
+  z-index: 7 !important;
+}
+
+/* line 284, classes.scss */
+.zi-8 {
+  z-index: 8 !important;
+}
+
+/* line 284, classes.scss */
+.zi-9 {
+  z-index: 9 !important;
+}
+
+/* line 284, classes.scss */
+.zi-10 {
+  z-index: 10 !important;
+}
+
+/* line 284, classes.scss */
+.zi-11 {
+  z-index: 11 !important;
+}
+
+/* line 284, classes.scss */
+.zi-12 {
+  z-index: 12 !important;
+}
+
+/* line 284, classes.scss */
+.zi-13 {
+  z-index: 13 !important;
+}
+
+/* line 284, classes.scss */
+.zi-14 {
+  z-index: 14 !important;
+}
+
+/* line 284, classes.scss */
+.zi-15 {
+  z-index: 15 !important;
+}
+
+/* line 284, classes.scss */
+.zi-16 {
+  z-index: 16 !important;
+}
+
+/* line 284, classes.scss */
+.zi-17 {
+  z-index: 17 !important;
+}
+
+/* line 284, classes.scss */
+.zi-18 {
+  z-index: 18 !important;
+}
+
+/* line 284, classes.scss */
+.zi-19 {
+  z-index: 19 !important;
+}
+
+/* line 284, classes.scss */
+.zi-20 {
+  z-index: 20 !important;
+}
+
+/* line 290, classes.scss */
+.ls-0 {
+  letter-spacing: 0px !important;
+}
+
+/* line 290, classes.scss */
+.ls-1 {
+  letter-spacing: 1px !important;
+}
+
+/* line 290, classes.scss */
+.ls-2 {
+  letter-spacing: 2px !important;
+}
+
+/* line 290, classes.scss */
+.ls-3 {
+  letter-spacing: 3px !important;
+}
+
+/* line 290, classes.scss */
+.ls-4 {
+  letter-spacing: 4px !important;
+}
+
+/* line 290, classes.scss */
+.ls-5 {
+  letter-spacing: 5px !important;
+}
+
+/* line 290, classes.scss */
+.ls-6 {
+  letter-spacing: 6px !important;
+}
+
+/* line 290, classes.scss */
+.ls-7 {
+  letter-spacing: 7px !important;
+}
+
+/* line 290, classes.scss */
+.ls-8 {
+  letter-spacing: 8px !important;
+}
+
+/* line 290, classes.scss */
+.ls-9 {
+  letter-spacing: 9px !important;
+}
+
+/* line 290, classes.scss */
+.ls-10 {
+  letter-spacing: 10px !important;
+}
+
+/* line 290, classes.scss */
+.ls-11 {
+  letter-spacing: 11px !important;
+}
+
+/* line 290, classes.scss */
+.ls-12 {
+  letter-spacing: 12px !important;
+}
+
+/* line 290, classes.scss */
+.ls-13 {
+  letter-spacing: 13px !important;
+}
+
+/* line 290, classes.scss */
+.ls-14 {
+  letter-spacing: 14px !important;
+}
+
+/* line 290, classes.scss */
+.ls-15 {
+  letter-spacing: 15px !important;
+}
+
+/* line 290, classes.scss */
+.ls-16 {
+  letter-spacing: 16px !important;
+}
+
+/* line 290, classes.scss */
+.ls-17 {
+  letter-spacing: 17px !important;
+}
+
+/* line 290, classes.scss */
+.ls-18 {
+  letter-spacing: 18px !important;
+}
+
+/* line 290, classes.scss */
+.ls-19 {
+  letter-spacing: 19px !important;
+}
+
+/* line 290, classes.scss */
+.ls-20 {
+  letter-spacing: 20px !important;
 }
